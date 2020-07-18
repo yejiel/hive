@@ -1,0 +1,758 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/js/group.js" line="1" mnemonic="3" />
+    <bookmark url="file://$PROJECT_DIR$/js/group.js" line="64" mnemonic="4" />
+    <bookmark url="file://$PROJECT_DIR$/js/group.js" line="96" mnemonic="1" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="48b0702f-f626-4831-a52f-4696971a317a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/appManager.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/consts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/contextMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/group.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/sideBar.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/groupsSection.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/context-menu.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/importExport.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/importExport.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/item.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/popup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/popup.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/storageManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/storageManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/popup.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-821059319">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.22" value="3" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="6" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="5" />
+          <entry key="html" value="5" />
+          <entry key="js" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="5" />
+          <entry key="HTML" value="5" />
+          <entry key="JavaScript" value="15" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="css" value="26" />
+          <entry key="html" value="44" />
+          <entry key="js" value="15443" />
+          <entry key="txt" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="CSS" value="26" />
+          <entry key="HTML" value="58" />
+          <entry key="JavaScript" value="15429" />
+          <entry key="PLAIN_TEXT" value="27" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.vcs.git.usages">
+        <counts>
+          <entry key="git.branch.create.new" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/popup.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/appManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+              <folding>
+                <element signature="e#1#50#0" expanded="true" />
+                <element signature="n#!!block;n#openedContextMenuRef#0;n#AppManager#0" />
+                <element signature="n#!!block;n#openedContextMenuRef#1;n#AppManager#0" />
+                <element signature="n#!!block;n#deleteGroup#0;n#AppManager#0" />
+                <element signature="n#!!block;n#_getNewGroupNameAux#0;n#!!block;n#importAsync#0;n#AppManager#0" />
+                <element signature="e#882#943#0" />
+                <element signature="e#949#1290#0" />
+                <element signature="e#1085#1170#0" />
+                <element signature="e#1377#1423#0" />
+                <element signature="e#2020#2830#0" />
+                <element signature="e#2280#2676#0" />
+                <element signature="e#2835#3147#0" />
+                <element signature="e#2952#3121#0" />
+                <element signature="e#3410#3774#0" />
+                <element signature="e#3513#3754#0" />
+                <element signature="n#!!block;n#exportAsync#0;n#AppManager#0" />
+                <element signature="n#!!block;n#initAsync#0;n#AppManager#0" />
+                <element signature="e#4252#4743#0" />
+                <element signature="e#4383#4729#0" />
+                <element signature="e#4440#4584#0" />
+                <element signature="e#4812#4904#0" />
+                <element signature="n#!!block;n#addItemAsync#0;n#AppManager#0" />
+                <element signature="e#5262#7492#0" />
+                <element signature="e#5298#5388#0" />
+                <element signature="e#5412#6920#0" />
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#select#0;n#div#0;n#!!top" />
+                <element signature="e#5784#6005#0" />
+                <element signature="e#5865#5957#0" />
+                <element signature="e#6377#6905#0" />
+                <element signature="e#6538#6647#0" />
+                <element signature="e#6705#6887#0" />
+                <element signature="e#6942#7480#0" />
+                <element signature="e#6983#7466#0" />
+                <element signature="n#!!block;n#clearAllItemsAsync#0;n#AppManager#0" />
+                <element signature="e#7572#7901#0" />
+                <element signature="e#7724#7847#0" />
+                <element signature="e#8326#8970#0" />
+                <element signature="e#8366#8755#0" />
+                <element signature="e#8790#8837#0" />
+                <element signature="e#8929#8952#0" />
+                <element signature="e#8993#9005#0" />
+                <element signature="n#!!block;n#removeItemAsync#0;n#AppManager#0" />
+                <element signature="n#!!block;n#editItemAsync#0;n#AppManager#0" />
+                <element signature="e#9458#11362#0" />
+                <element signature="n#div#0;n#!!top" />
+                <element signature="n#select#0;n#div#0;n#!!top" />
+                <element signature="e#9815#10107#0" />
+                <element signature="e#9894#10067#0" />
+                <element signature="e#10531#11351#0" />
+                <element signature="e#10688#10764#0" />
+                <element signature="e#10900#11001#0" />
+                <element signature="e#11171#11337#0" />
+                <element signature="e#11396#12564#0" />
+                <element signature="e#11781#11854#0" />
+                <element signature="e#11859#12499#0" />
+                <element signature="e#11916#12000#0" />
+                <element signature="n#!!block;n#getItem#0;n#AppManager#0" />
+                <element signature="n#!!block;n#getGroup#0;n#AppManager#0" />
+                <element signature="n#!!block;n#isGroupExist#0;n#AppManager#0" />
+                <element signature="e#12813#12850#0" />
+                <element signature="n#!!block;n#addNewGroup#0;n#AppManager#0" />
+                <element signature="e#14232#15083#0" />
+                <element signature="e#14616#15072#0" />
+                <element signature="e#14741#14842#0" />
+                <element signature="e#14893#15058#0" />
+                <element signature="e#15105#15924#0" />
+                <element signature="e#15141#15914#0" />
+                <element signature="e#15316#15648#0" />
+                <element signature="e#15654#15900#0" />
+                <element signature="e#15686#15880#0" />
+                <element signature="e#12953#13195#0" />
+                <element signature="e#14975#15442#0" />
+                <element signature="e#15120#15191#0" />
+                <element signature="e#15196#15331#0" />
+                <element signature="e#15472#15546#0" />
+                <element signature="e#15581#15631#0" />
+                <element signature="e#16258#16738#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/background.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/group.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="679">
+              <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+              <folding>
+                <element signature="e#1#30#0" expanded="true" />
+                <element signature="n#!!block;n#constructor#0;n#Group#0" />
+                <element signature="n#!!block;n#name#0;n#Group#0" />
+                <element signature="n#!!block;n#select#0;n#Group#0" />
+                <element signature="n#!!block;n#getItem#0;n#Group#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/popup.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/item.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+              <folding>
+                <element signature="e#0#33#0" expanded="true" />
+                <element signature="n#!!block;n#displayName#0;n#Item#0" />
+                <element signature="n#!!block;n#url#0;n#Item#0" />
+                <element signature="n#!!block;n#alias#0;n#Item#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/contextMenu.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="792">
+              <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+              <folding>
+                <element signature="n#!!block;n#build#0;n#ContextMenu#0" />
+                <element signature="n#!!block;n#buildOption#0;n#ContextMenu#0" />
+                <element signature="n#!!block;n#show#0;n#ContextMenu#0" />
+                <element signature="n#!!block;n#hide#0;n#ContextMenu#0" />
+                <element signature="n#!!block;n#isOpen#0;n#ContextMenu#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/consts.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/storageManager.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="44" column="25" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="25" />
+              <folding>
+                <element signature="n#!!block;n#constructor#0;n#StorageManager#0" />
+                <element signature="e#95#135#0" />
+                <element signature="n#!!block;n#getItemAsync#0;n#StorageManager#0" />
+                <element signature="e#225#322#0" />
+                <element signature="e#332#432#0" />
+                <element signature="n#!!block;n#upsertItemAsync#0;n#StorageManager#0" />
+                <element signature="e#553#776#0" />
+                <element signature="e#570#657#0" />
+                <element signature="e#667#765#0" />
+                <element signature="e#780#868#0" />
+                <element signature="n#!!block;n#setDataAsync#0;n#StorageManager#0" />
+                <element signature="n#!!block;n#deleteItemAsync#0;n#StorageManager#0" />
+                <element signature="e#1057#1262#0" />
+                <element signature="e#1074#1143#0" />
+                <element signature="e#1153#1251#0" />
+                <element signature="e#1266#1354#0" />
+                <element signature="n#!!block;n#getAllItemsAsync#0;n#StorageManager#0" />
+                <element signature="n#!!block;n#clearAllItemsAsync#0;n#StorageManager#0" />
+                <element signature="e#1523#1566#0" />
+                <element signature="e#1576#1668#0" />
+                <element signature="e#1728#2021#0" />
+                <element signature="e#1779#2013#0" />
+                <element signature="e#1831#2001#0" />
+                <element signature="e#1879#1928#0" />
+                <element signature="e#1934#1987#0" />
+                <element signature="e#2059#2356#0" />
+                <element signature="e#2110#2348#0" />
+                <element signature="e#2169#2336#0" />
+                <element signature="e#2217#2266#0" />
+                <element signature="e#2272#2322#0" />
+                <element signature="e#2385#2673#0" />
+                <element signature="e#2436#2665#0" />
+                <element signature="e#2486#2653#0" />
+                <element signature="e#2534#2583#0" />
+                <element signature="e#2589#2639#0" />
+                <element signature="e#2704#2994#0" />
+                <element signature="e#2755#2986#0" />
+                <element signature="e#2807#2974#0" />
+                <element signature="e#2855#2904#0" />
+                <element signature="e#2910#2960#0" />
+                <element signature="e#3021#3305#0" />
+                <element signature="e#3072#3297#0" />
+                <element signature="e#3118#3285#0" />
+                <element signature="e#3166#3215#0" />
+                <element signature="e#3221#3271#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>generate</find>
+      <find>generateIte</find>
+      <find>generateItem</find>
+      <find>remove</find>
+      <find>removeItem</find>
+      <find>new It</find>
+      <find>oldGroupName</find>
+      <find>ad</find>
+      <find>editItem</find>
+      <find>_getStoredDataAsync</find>
+      <find>displayName</find>
+      <find>${</find>
+      <find>new Set</find>
+      <find>new file</find>
+      <find>re</find>
+      <find>frthisz</find>
+      <find>getSto</find>
+      <find>getStored</find>
+      <find>import</find>
+      <find>newData.</find>
+      <find>displayNameSet.</find>
+      <find>displayNameSet.add</find>
+      <find>addItem</find>
+      <find>initAsy</find>
+      <find>deleteGr</find>
+      <find>deleteG</find>
+      <find>initC</find>
+      <find>contex</find>
+      <find>initConx</find>
+      <find>export</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/js/background.js" />
+        <option value="$PROJECT_DIR$/js/lib/item.js" />
+        <option value="$PROJECT_DIR$/js/lib/storageManager.js" />
+        <option value="$PROJECT_DIR$/js/lib/group.js" />
+        <option value="$PROJECT_DIR$/css/sideBar.css" />
+        <option value="$PROJECT_DIR$/js/context-menusManager.js" />
+        <option value="$PROJECT_DIR$/js/groupsManager.js" />
+        <option value="$PROJECT_DIR$/js/context-menu.js" />
+        <option value="$PROJECT_DIR$/js/ContextMenu.js" />
+        <option value="$PROJECT_DIR$/popup.html" />
+        <option value="$PROJECT_DIR$/css/global.css" />
+        <option value="$PROJECT_DIR$/js/contextMenu.js" />
+        <option value="$PROJECT_DIR$/js/item.js" />
+        <option value="$PROJECT_DIR$/js/consts.js" />
+        <option value="$PROJECT_DIR$/js/storageManager.js" />
+        <option value="$PROJECT_DIR$/js/popup.js" />
+        <option value="$PROJECT_DIR$/js/importExport.js" />
+        <option value="$PROJECT_DIR$/js/group.js" />
+        <option value="$PROJECT_DIR$/js/appManager.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2351" />
+    <option name="y" value="82" />
+    <option name="width" value="1095" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="chrome_shortcuts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chrome_shortcuts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chrome_shortcuts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chrome_shortcuts" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="chrome_shortcuts" type="b2602c69:ProjectViewProjectNode" />
+              <item name="chrome_shortcuts" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newportfolio/tamir-dev-portfolio" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Tamir\Desktop\chrome_shortcuts\js" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="48b0702f-f626-4831-a52f-4696971a317a" name="Default Changelist" comment="" />
+      <created>1590180930976</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1590180930976</updated>
+      <workItem from="1590180935017" duration="26367000" />
+      <workItem from="1593724035204" duration="11233000" />
+      <workItem from="1594400785856" duration="12605000" />
+      <workItem from="1594483610935" duration="38311000" />
+      <workItem from="1595076600794" duration="2790000" />
+      <workItem from="1595080126598" duration="6611000" />
+    </task>
+    <task id="LOCAL-00001" summary="as branchname tells">
+      <created>1590183196749</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1590183196749</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="97917000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2351" y="82" width="1095" height="1055" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.45179585" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32930845" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32930845" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24973376" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="as branchname tells" />
+    <option name="LAST_COMMIT_MESSAGE" value="as branchname tells" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/js/context-menusManager.js" />
+    <entry file="file://$PROJECT_DIR$/js/context-menu.js" />
+    <entry file="file://$PROJECT_DIR$/css/item.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/groupsSection.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/background.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/consts.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/contextMenu.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="80" column="9" lean-forward="true" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!block;n#build#0;n#ContextMenu#0" />
+            <element signature="n#!!block;n#buildOption#0;n#ContextMenu#0" />
+            <element signature="n#!!block;n#show#0;n#ContextMenu#0" />
+            <element signature="n#!!block;n#hide#0;n#ContextMenu#0" />
+            <element signature="n#!!block;n#isOpen#0;n#ContextMenu#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/storageManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="44" column="25" selection-start-line="44" selection-start-column="10" selection-end-line="44" selection-end-column="25" />
+          <folding>
+            <element signature="n#!!block;n#constructor#0;n#StorageManager#0" />
+            <element signature="e#95#135#0" />
+            <element signature="n#!!block;n#getItemAsync#0;n#StorageManager#0" />
+            <element signature="e#225#322#0" />
+            <element signature="e#332#432#0" />
+            <element signature="n#!!block;n#upsertItemAsync#0;n#StorageManager#0" />
+            <element signature="e#553#776#0" />
+            <element signature="e#570#657#0" />
+            <element signature="e#667#765#0" />
+            <element signature="e#780#868#0" />
+            <element signature="n#!!block;n#setDataAsync#0;n#StorageManager#0" />
+            <element signature="n#!!block;n#deleteItemAsync#0;n#StorageManager#0" />
+            <element signature="e#1057#1262#0" />
+            <element signature="e#1074#1143#0" />
+            <element signature="e#1153#1251#0" />
+            <element signature="e#1266#1354#0" />
+            <element signature="n#!!block;n#getAllItemsAsync#0;n#StorageManager#0" />
+            <element signature="n#!!block;n#clearAllItemsAsync#0;n#StorageManager#0" />
+            <element signature="e#1523#1566#0" />
+            <element signature="e#1576#1668#0" />
+            <element signature="e#1728#2021#0" />
+            <element signature="e#1779#2013#0" />
+            <element signature="e#1831#2001#0" />
+            <element signature="e#1879#1928#0" />
+            <element signature="e#1934#1987#0" />
+            <element signature="e#2059#2356#0" />
+            <element signature="e#2110#2348#0" />
+            <element signature="e#2169#2336#0" />
+            <element signature="e#2217#2266#0" />
+            <element signature="e#2272#2322#0" />
+            <element signature="e#2385#2673#0" />
+            <element signature="e#2436#2665#0" />
+            <element signature="e#2486#2653#0" />
+            <element signature="e#2534#2583#0" />
+            <element signature="e#2589#2639#0" />
+            <element signature="e#2704#2994#0" />
+            <element signature="e#2755#2986#0" />
+            <element signature="e#2807#2974#0" />
+            <element signature="e#2855#2904#0" />
+            <element signature="e#2910#2960#0" />
+            <element signature="e#3021#3305#0" />
+            <element signature="e#3072#3297#0" />
+            <element signature="e#3118#3285#0" />
+            <element signature="e#3166#3215#0" />
+            <element signature="e#3221#3271#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="75" column="17" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#33#0" expanded="true" />
+            <element signature="n#!!block;n#displayName#0;n#Item#0" />
+            <element signature="n#!!block;n#url#0;n#Item#0" />
+            <element signature="n#!!block;n#alias#0;n#Item#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/popup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/popup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="85" column="31" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/group.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="122" lean-forward="true" selection-start-line="122" selection-end-line="122" />
+          <folding>
+            <element signature="e#1#30#0" expanded="true" />
+            <element signature="n#!!block;n#constructor#0;n#Group#0" />
+            <element signature="n#!!block;n#name#0;n#Group#0" />
+            <element signature="n#!!block;n#select#0;n#Group#0" />
+            <element signature="n#!!block;n#getItem#0;n#Group#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/importExport.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/appManager.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="e#1#50#0" expanded="true" />
+            <element signature="n#!!block;n#openedContextMenuRef#0;n#AppManager#0" />
+            <element signature="n#!!block;n#openedContextMenuRef#1;n#AppManager#0" />
+            <element signature="n#!!block;n#deleteGroup#0;n#AppManager#0" />
+            <element signature="n#!!block;n#_getNewGroupNameAux#0;n#!!block;n#importAsync#0;n#AppManager#0" />
+            <element signature="e#882#943#0" />
+            <element signature="e#949#1290#0" />
+            <element signature="e#1085#1170#0" />
+            <element signature="e#1377#1423#0" />
+            <element signature="e#2020#2830#0" />
+            <element signature="e#2280#2676#0" />
+            <element signature="e#2835#3147#0" />
+            <element signature="e#2952#3121#0" />
+            <element signature="e#3410#3774#0" />
+            <element signature="e#3513#3754#0" />
+            <element signature="n#!!block;n#exportAsync#0;n#AppManager#0" />
+            <element signature="n#!!block;n#initAsync#0;n#AppManager#0" />
+            <element signature="e#4252#4743#0" />
+            <element signature="e#4383#4729#0" />
+            <element signature="e#4440#4584#0" />
+            <element signature="e#4812#4904#0" />
+            <element signature="n#!!block;n#addItemAsync#0;n#AppManager#0" />
+            <element signature="e#5262#7492#0" />
+            <element signature="e#5298#5388#0" />
+            <element signature="e#5412#6920#0" />
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#select#0;n#div#0;n#!!top" />
+            <element signature="e#5784#6005#0" />
+            <element signature="e#5865#5957#0" />
+            <element signature="e#6377#6905#0" />
+            <element signature="e#6538#6647#0" />
+            <element signature="e#6705#6887#0" />
+            <element signature="e#6942#7480#0" />
+            <element signature="e#6983#7466#0" />
+            <element signature="n#!!block;n#clearAllItemsAsync#0;n#AppManager#0" />
+            <element signature="e#7572#7901#0" />
+            <element signature="e#7724#7847#0" />
+            <element signature="e#8326#8970#0" />
+            <element signature="e#8366#8755#0" />
+            <element signature="e#8790#8837#0" />
+            <element signature="e#8929#8952#0" />
+            <element signature="e#8993#9005#0" />
+            <element signature="n#!!block;n#removeItemAsync#0;n#AppManager#0" />
+            <element signature="n#!!block;n#editItemAsync#0;n#AppManager#0" />
+            <element signature="e#9458#11362#0" />
+            <element signature="n#div#0;n#!!top" />
+            <element signature="n#select#0;n#div#0;n#!!top" />
+            <element signature="e#9815#10107#0" />
+            <element signature="e#9894#10067#0" />
+            <element signature="e#10531#11351#0" />
+            <element signature="e#10688#10764#0" />
+            <element signature="e#10900#11001#0" />
+            <element signature="e#11171#11337#0" />
+            <element signature="e#11396#12564#0" />
+            <element signature="e#11781#11854#0" />
+            <element signature="e#11859#12499#0" />
+            <element signature="e#11916#12000#0" />
+            <element signature="n#!!block;n#getItem#0;n#AppManager#0" />
+            <element signature="n#!!block;n#getGroup#0;n#AppManager#0" />
+            <element signature="n#!!block;n#isGroupExist#0;n#AppManager#0" />
+            <element signature="e#12813#12850#0" />
+            <element signature="n#!!block;n#addNewGroup#0;n#AppManager#0" />
+            <element signature="e#14232#15083#0" />
+            <element signature="e#14616#15072#0" />
+            <element signature="e#14741#14842#0" />
+            <element signature="e#14893#15058#0" />
+            <element signature="e#15105#15924#0" />
+            <element signature="e#15141#15914#0" />
+            <element signature="e#15316#15648#0" />
+            <element signature="e#15654#15900#0" />
+            <element signature="e#15686#15880#0" />
+            <element signature="e#12953#13195#0" />
+            <element signature="e#14975#15442#0" />
+            <element signature="e#15120#15191#0" />
+            <element signature="e#15196#15331#0" />
+            <element signature="e#15472#15546#0" />
+            <element signature="e#15581#15631#0" />
+            <element signature="e#16258#16738#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

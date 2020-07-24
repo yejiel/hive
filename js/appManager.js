@@ -192,14 +192,16 @@ class AppManager {
         const appManagerRef = this;
         let title;
         let url;
+        let favIconUrl;
 
         //async func
-        chrome.tabs.query({active: true, lastFocusedWindow: true}, function (tabs) {
+        chrome.tabs.query({active: true}, function (tabs) {
 
             if (tabs[0] != null) {
 
                 title = tabs[0].title;
                 url = tabs[0].url;
+                favIconUrl = tabs[0].favIconUrl;
             }
 
             Swal.fire({
@@ -241,7 +243,7 @@ class AppManager {
                         groupSelectElem.options[groupSelectElem.selectedIndex].value;
                     const displayName = document.querySelector("#displayNameInput").value;
                     const alias = document.querySelector("#aliasInput").value;
-                    await addItemAsync({alias, url, displayName, group}, appManagerRef);
+                    await addItemAsync({alias, url, displayName, group, favIconUrl}, appManagerRef);
                 }
             });
         });

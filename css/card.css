@@ -1,0 +1,49 @@
+.card {
+  background-color: rgb(50, 150, 243);
+  height: 45px;
+  box-shadow: 0 0 2rem -1rem rgba(0, 0, 0, 0.05);
+  width: 90%;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: 3px solid rgb(207, 207, 251);
+  padding: 5px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card img{
+  border: 3px solid #fff;
+  border-radius: 3px;
+  padding:0;
+  width: 32px;
+  height: 32px
+}
+
+.card h4 {
+  color: #fff;
+  margin:0;
+}
+
+
+.detailsSection {
+  display: flex;
+  flex-direction: column;
+  margin-left:5px;
+  color: #73D0FF;
+
+
+}
+
+.detailsSection span{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.detailsSection span h4{
+  color: #73D0FF;
+
+}
+

@@ -10,17 +10,19 @@ class Item {
     #alias;
     #groupName;
     #group;
+    #favIconUrl;
     #contextMenu;
     #appManagerRef;
 
     constructor(itemObj, appManagerRef) {
 
         this.#appManagerRef = appManagerRef;
-        const {displayName, url, alias, group} = itemObj;
+        const {displayName, url, alias, group, favIconUrl} = itemObj;
         this.#displayName = displayName;
         this.#url = url;
         this.#alias = alias;
         this.#groupName = group;
+        this.#favIconUrl = favIconUrl;
         this.#contextMenu = this.#initContextMenu();
 
     }
@@ -43,6 +45,7 @@ class Item {
             url: this.#url,
             group: this.#groupName,
             alias: this.#alias,
+            favIconUrl: this.#favIconUrl
         }
     }
     draw() {
@@ -57,7 +60,7 @@ class Item {
             (e) => this.#contextMenu.openContextMenu(e),
             false
         );
-        divElemToAdd.innerHTML = `${this.#displayName}---->${this.#alias || ""}`;
+        divElemToAdd.innerHTML = `<img src=${this.#favIconUrl}><div class="detailsSection"><h4>${this.#displayName}</h4><span>${this.#alias? `<h4 style="margin-right: 3px;">Alias:</h4>${this.#alias}`: ""}</span></div>`;
         divElemToAdd.addEventListener("dragstart", (e) => {
             e.dataTransfer.setData("text/plain", JSON.stringify(this.generateItemObj())); // add draggedItem to event
             event.target.style.opacity = 0.5;

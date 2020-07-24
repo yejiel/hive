@@ -65,6 +65,9 @@ class Item {
             e.dataTransfer.setData("text/plain", JSON.stringify(this.generateItemObj())); // add draggedItem to event
             event.target.style.opacity = 0.5;
         });
+        divElemToAdd.addEventListener("click", () => {
+            chrome.tabs.create({url:this.#url}, ()=>{})
+        });
         divElemToAdd.addEventListener("dragend", (e) => {
             e.dataTransfer.setData("text/plain", JSON.stringify(this.generateItemObj())); // add draggedItem to event
             event.target.style.opacity = 1;

@@ -11,6 +11,13 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  cursor: pointer;
+}
+
+.card:hover {
+  background-color: #2f52a3;
+  box-shadow: 0 0 2rem -1rem rgb(255, 240, 251);
+
 }
 
 .card img{

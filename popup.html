@@ -13,6 +13,7 @@
   <link rel="stylesheet" type="text/css" href="css/groupsSection.css"/>
   <link rel="stylesheet" type="text/css" href="css/round-button.css"/>
   <link rel="stylesheet" type="text/css" href="css/card.css"/>
+  <link rel="stylesheet" type="text/css" href="css/itemsSection.css"/>
 
 </head>
 
@@ -20,21 +21,22 @@
 
 
   <div align ="center" style="display:flex;flex-direction: row;">
-    <h1 style="margin-left:185px">HIVE </h1>
+    <img src="./img/logo.png" width="181" height="73" style="margin:auto">
+    <img id="optionsBtn" src="./img/options.png"  width="24" height="24" style="margin:auto" >
+
     <div style="height:100px"></div>
   </div>
 
   <div id="header" align="center">
 
-    <input type="file" accept=".smd" id="selectFiles" value="Import" class="button warning" style="width:200px">
+    <input type="file" accept=".smd" id="selectFiles" value="Import" class="button warning" style="display:none">
 
-    </input>
-    <label for="selectFiles">Import <img src="./img//upload.svg" alt="" width="13" height="13" title="Bootstrap">
+    <label for="selectFiles" style="display:none">Import <img src="./img//upload.svg" alt="" width="13" height="13" title="Bootstrap">
     </label>
 
-    <button id="export" class="button warning">Export <img src="./img/download.svg" alt="" width="13" height="13"
-        title="Bootstrap"></button>
-    <button id="clear" class="button danger">Clear</button>
+    <!--<button id="export" class="button warning">Export <img src="./img/download.svg" alt="" width="13" height="13"-->
+        <!--title="Bootstrap"></button>-->
+    <!--<button id="clear" class="button danger">Clear</button>-->
   </div>
   <div id="middleSection">
 

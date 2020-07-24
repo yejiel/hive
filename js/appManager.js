@@ -2,6 +2,7 @@
 import StorageManager from './storageManager.js';
 import Group from './group.js';
 import CONSTS from './consts.js';
+import ContextMenu from "./contextMenu.js";
 
 class AppManager {
 
@@ -10,6 +11,7 @@ class AppManager {
     #aliasSet = new Set(); // consider
     #openedContextMenuRef = null;
     #fileReader = new FileReader();
+    #optionsBtnDomRef = document.querySelector('#optionsBtn');
 
     constructor() {}
 
@@ -157,12 +159,13 @@ class AppManager {
 
     }
 
-    async initAsync() {
+    async initAsync() { // todo also update async
 
         try {
             this.#initGroupSection(); // create 'newGroup' btn and its eventListener
             this.#initGroupsMap(); // create 'General' group
             this.#initDisplayNameSet();
+            this.#initOptionsBtn();
             const allItems = await StorageManager.getAllItemsAsync();
             console.log(allItems);
             for(let displayName in allItems) {
@@ -195,8 +198,9 @@ class AppManager {
         let favIconUrl;
 
         //async func
-        chrome.tabs.query({active: true}, function (tabs) {
+        chrome.tabs.query({active: true, lastFocusedWindow: true}, function (tabs) {
 
+            debugger;
             if (tabs[0] != null) {
 
                 title = tabs[0].title;
@@ -462,6 +466,38 @@ class AppManager {
     #initGroupsMap = () => {
 
         this.#groupsMap = {General: new Group('General', this) };
+    };
+
+    #initOptionsBtn = () => {
+
+        const contextMenu = new ContextMenu({
+            theme: "blue", // or 'blue'
+
+            items: [
+
+                {
+                    icon: "export",
+                    name: "Export items",
+                    action: async () => this.exportAsync()
+                },
+                {
+                    icon: "import",
+                    name: "import items",
+                    action: async () => document.querySelector('#selectFiles').click()
+                },
+
+                {icon: "trash", name: "Clear all items", action: async () => this.clearAllItemsAsync()},
+
+                {icon: "trash", name: "Preference", action: ()=>{}},
+
+            ],
+        }, this);
+
+        this.#optionsBtnDomRef.addEventListener(
+            "click",
+            (e) => contextMenu.openContextMenu(e),
+            false
+        );
     };
 
     #initDisplayNameSet = () => {

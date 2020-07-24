@@ -15,17 +15,17 @@ window.addEventListener("DOMContentLoaded", async () => {
 });
 
 function _initEvents() {
-  document
-    .querySelector("#export")
-    .addEventListener("click", async () => await appManager.exportAsync());
+  // document
+  //   .querySelector("#export")
+  //   .addEventListener("click", async () => await appManager.exportAsync());
 
   document
     .querySelector("#selectFiles")
     .addEventListener("change", async () => await appManager.importAsync());
 
-  document
-    .querySelector("#clear")
-    .addEventListener("click", async () => await appManager.clearAllItemsAsync());
+  // document
+  //   .querySelector("#clear")
+  //   .addEventListener("click", async () => await appManager.clearAllItemsAsync());
 
   document
     .querySelector(".addSiteBtn")

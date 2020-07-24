@@ -1,8 +1,8 @@
 .addSiteBtn {
-  background: linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
-  background-color: #44c767;
+  background: linear-gradient(to bottom, #ffc038 5%, #a39e35 100%);
+  background-color: #27242b;
   border-radius: 21px;
-  border: 6px solid #18a826;
+  border: 6px solid #a39b40;
   display: inline-block;
   cursor: pointer;
   color: #ffffff;
@@ -18,8 +18,8 @@
   margin-left: 130px;
 }
 .addSiteBtn:hover {
-  background: linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
-  background-color: #5cbf2a;
+  background: linear-gradient(to bottom, #bfb664 5%, #f6ff3f 100%);
+  background-color: #bfa16d;
 }
 .addSiteBtn:active {
   position: relative;

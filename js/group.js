@@ -115,11 +115,6 @@ class Group {
             theme: "default", // or 'blue'
 
             items: [
-                {
-                    icon: "import",
-                    name: "Import to group",
-                    action: () => console.log("jQuery"),
-                },
 
                 {
                     icon: "export",

@@ -166,6 +166,7 @@ class AppManager {
             this.#initGroupsMap(); // create 'General' group
             this.#initDisplayNameSet();
             this.#initOptionsBtn();
+            this.#initEvents();
             const allItems = await StorageManager.getAllItemsAsync();
             console.log(allItems);
             for(let displayName in allItems) {
@@ -466,6 +467,59 @@ class AppManager {
     #initGroupsMap = () => {
 
         this.#groupsMap = {General: new Group('General', this) };
+    };
+
+    #initEvents = () => {
+
+        document
+            .querySelector("#selectFiles")
+            .addEventListener("change", async () => await this.importAsync());
+
+        document
+            .querySelector(".addSiteBtn")
+            .addEventListener("click", async () => await this.addItemAsync());
+
+        document
+            .querySelector(".addGroupBtn")
+            .addEventListener("click", () => this.addNewGroup());
+
+        //allow dragging
+        document.addEventListener("dragover", function (event) {
+            event.preventDefault();
+        });
+
+        document
+            .querySelector('.searchBox')
+            .addEventListener("input", async (e) => await this.#onFilterChangeAsync(e.target.value));
+    };
+
+    #onFilterChangeAsync = async (kw) => {
+
+        console.time('tillStorageManagerGiveAll');
+        const FILTER_GROUP = true;
+        const allItems = await StorageManager.getAllItemsAsync();
+        console.timeEnd('tillStorageManagerGiveAll');
+        console.time('rest')
+        const res = Object
+            .keys(allItems)
+            .filter(displayName => displayName.includes(kw) && !displayName.includes('_dummy_'));
+
+        if(res) {
+            const resGroup = new Group('filtered', this, FILTER_GROUP );
+            res.forEach(displayName => {
+
+                resGroup.addItem({
+                    displayName,
+                    url: allItems[displayName].url,
+                    group: allItems[displayName].group,
+                    alias: allItems[displayName].alias,
+                    favIconUrl: allItems[displayName].favIconUrl
+                }, this)
+
+            });
+            resGroup.select();
+        }
+        console.timeEnd('rest');
     };
 
     #initOptionsBtn = () => {

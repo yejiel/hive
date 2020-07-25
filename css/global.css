@@ -140,7 +140,7 @@ h5 {
   color: #fff;
 }
 #header {
-  margin-bottom: 20px;
+  height:50px;
 }
 .danger {
   background-color: #b94444;
@@ -200,4 +200,31 @@ input[type="text"]:focus {
   height: 45px;
   margin: 5px auto;
   text-overflow: ellipsis;
+}
+
+.svgWrapper{
+  position:absolute;
+  top:5px;
+  left:8px;
+}
+
+.searchBox{
+  text-indent:30px;
+  width:200px
+}
+.search{
+  position:absolute;
+  margin-left:6px;
+  margin-top:8px;
+
+}
+
+.optionsBtn:hover {
+  background-color: #a4a9a447;
+  border-radius:8px;
+}
+
+.optionsBtn{
+  margin-left:auto
+
 }

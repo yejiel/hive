@@ -12,7 +12,7 @@ class Group {
     #domElemRef;
     #appManagerRef;
 
-    constructor(groupName, appManagerRef) {
+    constructor(groupName, appManagerRef, isFilterGroup = false) {
 
         this.#appManagerRef = appManagerRef;
         if(!appManagerRef) {
@@ -20,9 +20,10 @@ class Group {
         }
         this.#name = groupName;
         this.#displayNameToItemMap = {};
-        this.#contextMenu = this.#initContextMenu();
-        this.#drawGroupButton();
-
+        if(!isFilterGroup) {
+            this.#contextMenu = this.#initContextMenu();
+            this.#drawGroupButton();
+        }
     }
 
     get name() {
@@ -131,12 +132,18 @@ class Group {
         document
             .querySelectorAll(".sideBarItem")
             .forEach((item) => item.classList.remove("active"));
-        this.#domElemRef.classList.add("active");
+        if(this.#domElemRef) {
+            // filter-group doesnt have a domElemRef
+            this.#domElemRef.classList.add("active");
+        }
     };
 
     #isSelected = () => {
 
-        return this.#domElemRef.classList.contains('active');
+        if(this.#domElemRef) {
+            // filter-group doesnt have a domElemRef
+            return this.#domElemRef.classList.contains('active');
+        }
     }
 
 }

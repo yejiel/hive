@@ -495,14 +495,11 @@ class AppManager {
 
     #onFilterChangeAsync = async (kw) => {
 
-        console.time('tillStorageManagerGiveAll');
         const FILTER_GROUP = true;
         const allItems = await StorageManager.getAllItemsAsync();
-        console.timeEnd('tillStorageManagerGiveAll');
-        console.time('rest')
         const res = Object
             .keys(allItems)
-            .filter(displayName => displayName.includes(kw) && !displayName.includes('_dummy_'));
+            .filter(displayName => displayName.toLowerCase().includes(kw.toLowerCase()) && !displayName.includes('_dummy_'));
 
         if(res) {
             const resGroup = new Group('filtered', this, FILTER_GROUP );
@@ -519,7 +516,6 @@ class AppManager {
             });
             resGroup.select();
         }
-        console.timeEnd('rest');
     };
 
     #initOptionsBtn = () => {
@@ -540,9 +536,9 @@ class AppManager {
                     action: async () => document.querySelector('#selectFiles').click()
                 },
 
-                {icon: "trash", name: "Clear all items", action: async () => this.clearAllItemsAsync()},
+                {icon: "trash", name: "Clear all items", action: async () => this.clearAllItemsAsync()}
 
-                {icon: "trash", name: "Preference", action: ()=>{}},
+                //{icon: "trash", name: "Preference", action: ()=>{}},
 
             ],
         }, this);

@@ -124,12 +124,13 @@
 /* ============================================================================================ */
 
 .context-menu-blue {
+
   position: absolute;
-  width: 250px;
+  width: 200px;
   padding: 0;
   margin: 0;
-  background: #23AFF7;
-  background: linear-gradient(to bottom, #23AFF7 0%, #007BFF 100px, #007BFF 100%);
+  background: #ffc038;
+  /*background: linear-gradient(to bottom, #f6ff3f 0%, #b6b917 100px);*/
   z-index: 100;
   border-radius: 2px;
   -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
@@ -181,7 +182,7 @@
 }
 
 .context-menu-blue-text {
-  color: white;
+  color: #fffbc3;
   font-family: 'Barlow', sans-serif;
   font-size: 1rem;
   margin-left: 20px;
@@ -192,7 +193,7 @@
   outline: none;
   background-color: #73D0FF;
   background: -webkit-gradient(linear, left top, left bottom, from(#73D0FF), to(#73D0FF));
-  background: linear-gradient(to bottom, #73D0FF, #73D0FF);
+  background: linear-gradient(to bottom, #ffe144, #d6a22f);
 }
 
 .context-menu-blue-item.disabled {

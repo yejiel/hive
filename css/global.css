@@ -5,6 +5,7 @@ body {
   border-radius: 5px;
   min-height: 200px;
   overflow: hidden;
+  background-color: #ffc0382e;
 }
 
 [type="file"] {

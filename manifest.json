@@ -9,8 +9,8 @@
   },
 
   "browser_action": {
-    "default_title": "Shortcut Manager DELUXE",
-    "default_icon": "img/terminal_16x16.png",
+    "default_title": "Hive",
+    "default_icon": "img/logo_16x16.png",
     "default_popup": "popup.html"
   },
   "omnibox": { "keyword": "go" },

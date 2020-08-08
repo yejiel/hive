@@ -307,6 +307,7 @@ class AppManager {
         const oldGroup = item.groupName;
         const oldDisplayName = item.displayName;
         const oldAlias = item.alias;
+        const oldUrl = item.url;
 
         const res = await Swal.fire({
             title: "<strong>Edit </strong>",
@@ -324,7 +325,10 @@ class AppManager {
             })()}</select><br> 
                           Alias (optional): <input class="swal2-input"type="text" id="aliasInput" name="fname" value=${
                 oldAlias ? oldAlias : ""
-                } ><br></div>`,
+                } ><br>
+                          Url:<input class="swal2-input"type="text" id="urlInput" name="fname" value=${
+                oldUrl ? oldUrl : ""
+                } <br></div>`,
             showCloseButton: true,
             showCancelButton: true,
             focusConfirm: true,
@@ -334,10 +338,16 @@ class AppManager {
                 let displayNameFromInput = Swal.getPopup().querySelector(
                     "#displayNameInput"
                 ).value;
+                let urlFromInput = Swal.getPopup().querySelector(
+                    "#urlInput"
+                ).value;
                 // let groupFromInput = Swal.getPopup().querySelector("#groupSelect").value;
                 // let aliasFromInput = Swal.getPopup().querySelector("#aliasInput").value;
                 if (!displayNameFromInput) {
                     Swal.showValidationMessage(`Display name must be provided.`);
+                }
+                if (!urlFromInput) {
+                    Swal.showValidationMessage(`Url must be provided.`);
                 }
                 if (
                     this.#displayNameSet.has(displayNameFromInput) &&
@@ -357,6 +367,7 @@ class AppManager {
                 groupSelectElem.options[groupSelectElem.selectedIndex].value;
             const newDisplayName = document.querySelector("#displayNameInput").value;
             const newAlias = document.querySelector("#aliasInput").value;
+            const newUrl = document.querySelector("#urlInput").value;
 
             if(newGroup !== oldGroup) {
                 await item.moveToNewGroupAsync(newGroup);
@@ -368,6 +379,7 @@ class AppManager {
                 itemObj.group = newGroup;
                 itemObj.displayName = newDisplayName;
                 itemObj.alias = newAlias;
+                itemObj.url = newUrl;
                 await this.removeItemAsync(item.displayName, item.groupName);
                 await StorageManager.upsertItemAsync(itemObj);
                 const oldGroupRef = this.getGroup(oldGroup);

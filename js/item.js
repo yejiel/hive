@@ -74,7 +74,7 @@ class Item {
                     img.src = "../img/default_favicon.jpg";
                 }
             },
-            100
+            200
         );
         divElemToAdd.addEventListener("dragstart", (e) => {
             e.dataTransfer.setData("text/plain", JSON.stringify(this.generateItemObj())); // add draggedItem to event

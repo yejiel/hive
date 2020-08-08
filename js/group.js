@@ -123,7 +123,7 @@ class Group {
                     action: async () => this.#appManagerRef.exportAsync([this.#name])
                 },
 
-                {icon: "trash", name: "Delete group", action: async () => this.#appManagerRef.removeGroupAsync(this.#name)},
+                {icon: "trash", name: "Delete group", action: async () => this.#appManagerRef.removeGroupAsync(this.#name)}
             ],
         }, this.#appManagerRef);
     };

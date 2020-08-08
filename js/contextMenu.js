@@ -39,6 +39,8 @@ class ContextMenu {
     }
 
     show(x, y) {
+        this.menu.style.display = "block";
+
         const w = window.innerWidth;
         const h = window.innerHeight;
 
@@ -59,6 +61,8 @@ class ContextMenu {
 
     hide() {
         this.menu.classList.remove(`show-context-menu-${this.theme}`);
+        this.menu.style.display = "none";
+
     }
 
     isOpen() {

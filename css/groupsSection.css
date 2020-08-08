@@ -1,5 +1,7 @@
 #groupsSection {
-  width: 80px;
+  width: 100px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 .sideBarItem {
   height: 30px;
@@ -10,6 +12,10 @@
   padding-top: 4px;
   text-align: center;
   color: white;
+  margin-right: 5px;
+  margin-bottom: 3px;
+text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .sideBarItem:hover {
@@ -31,6 +37,7 @@
   text-align: center;
   color: black;
   border: 1px dotted black;
+  margin-right: 5px;
 }
 .addGroupBtn:hover {
   cursor: pointer;

@@ -1,6 +1,6 @@
 #itemsSection {
-    overflow-y: scroll;
-    height: 270px;
+    overflow-y: auto;
+    height: 100%;
 }
 #itemsSection::-webkit-scrollbar {
     width: 10px;

@@ -5,6 +5,7 @@
 .context-menu-default {
   position: absolute;
   width: 200px;
+  display:none;
   padding: 0;
   margin: 0;
   background: white;
@@ -125,6 +126,7 @@
 
 .context-menu-blue {
 
+  display:none;
   position: absolute;
   width: 200px;
   padding: 0;

@@ -60,7 +60,22 @@ class Item {
             (e) => this.#contextMenu.openContextMenu(e),
             false
         );
-        divElemToAdd.innerHTML = `<img src=${this.#favIconUrl}><div class="detailsSection"><h4>${this.#displayName}</h4><span>${this.#alias? `<h4 style="margin-right: 3px;">Alias:</h4>${this.#alias}`: ""}</span></div>`;
+        divElemToAdd.innerHTML = `<div class="detailsSection"><h4>${this.#displayName}</h4><span>${this.#alias? `<h4 style="margin-right: 3px;">Alias:</h4>${this.#alias}`: ""}</span></div>`;
+        const img = new Image();
+        img.src = this.#favIconUrl;
+        img.loading = 'lazy';
+        divElemToAdd.prepend(img);
+        setTimeout
+        (
+            function()
+            {
+                if ( !img.complete || !img.naturalWidth)
+                {
+                    img.src = "../img/default_favicon.jpg";
+                }
+            },
+            100
+        );
         divElemToAdd.addEventListener("dragstart", (e) => {
             e.dataTransfer.setData("text/plain", JSON.stringify(this.generateItemObj())); // add draggedItem to event
             event.target.style.opacity = 0.5;

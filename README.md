@@ -1,16 +1,16 @@
-# Omnibox Alias
+# HIVE Bookmarks
 
 Originally cloned from:
 
-    git clone https://github.com/sean-smith/chrome_shortcuts
+    git clone https://github.com/tamir-nakar/chrome_shortcuts
 
 FEATURES:
 
 ---
 
-REMOVE Alias feature.
-Import and Export feature.
-Neater Design and Layout
+Grouping
+Search
+Aliases
 
 Bugfixes:
 
